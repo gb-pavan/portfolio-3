@@ -1,88 +1,3 @@
-// import AboutSection from '../sections/AboutSection';
-// import SocialIcons from '../components/SocialIcons';
-
-// const AboutPage = () => {
-//   return (
-//     <main className="bg-white dark:bg-black text-black dark:text-white font-sans flex flex-col items-center justify-center space-y-12">
-//       <AboutSection />
-
-//       {/* Social Icons - left fixed */}
-//       <div className="fixed left-4 md:left-6 bottom-8 z-50 px-4 md:px-10 flex">
-//         <SocialIcons />
-//       </div>
-
-//       {/* Email text - right fixed */}
-//       <div className="fixed right-4 md:right-20 bottom-8 z-50 flex flex-col items-center gap-4">
-//         <p className="text-gray-400 text-xs md:text-sm tracking-wider [writing-mode:vertical-rl] [text-orientation:mixed]">
-//           sinhaaniskumar@outlook.in
-//         </p>
-//         <div className="w-3 md:w-4 h-px bg-gray-400" />
-//       </div>
-//     </main>
-//   );
-// };
-
-// export default AboutPage;
-// import HeroSection from '../sections/HeroSection';
-// import AboutSection from '../sections/AboutSection';
-// import SocialIcons from '../components/SocialIcons';
-// import Navbar from './Navbar';
-
-// const Home = () => {
-//   return (
-//     <main className="bg-white dark:bg-black text-black dark:text-white font-sans flex flex-col items-center justify-center space-y-12">
-//               <Navbar />
-
-//       <HeroSection />
-//       {/* <AboutSection /> */}
-
-//       {/* Social Icons - left fixed */}
-//       <div className="fixed left-4 md:left-6 bottom-8 z-50 px-4 md:px-10 flex">
-//         <SocialIcons />
-//       </div>
-
-//       {/* Email text - right fixed */}
-//       <div className="fixed right-4 md:right-20 bottom-8 z-50 flex flex-col items-center gap-4">
-//         <p className="text-gray-400 text-xs md:text-sm tracking-wider [writing-mode:vertical-rl] [text-orientation:mixed]">
-//           sinhaaniskumar@outlook.in
-//         </p>
-//         <div className="w-3 md:w-4 h-px bg-gray-400" />
-//       </div>
-//     </main>
-//   );
-// };
-
-// export default Home;
-
-// import AboutSection from '../sections/AboutSection';
-// import SocialIcons from '../components/SocialIcons';
-// import Navbar from './Navbar';
-
-// const AboutPage = () => {
-//   return (
-//     <main className="bg-white dark:bg-black text-black dark:text-white font-sans flex flex-col items-center justify-center space-y-12 min-h-screen">
-//       <Navbar /> {/* Optional: Second navbar on about section */}
-
-//       <AboutSection />
-
-//       {/* Fixed Social Icons */}
-//       <div className="fixed left-4 md:left-6 bottom-8 z-50 px-4 md:px-10 flex">
-//         <SocialIcons />
-//       </div>
-
-//       {/* Fixed Email Text */}
-//       <div className="fixed right-4 md:right-20 bottom-8 z-50 flex flex-col items-center gap-4">
-//         <p className="text-gray-400 text-xs md:text-sm tracking-wider [writing-mode:vertical-rl] [text-orientation:mixed]">
-//           sinhaaniskumar@outlook.in
-//         </p>
-//         <div className="w-3 md:w-4 h-px bg-gray-400" />
-//       </div>
-//     </main>
-//   );
-// };
-
-// export default AboutPage;
-
 import AboutSection from '../sections/AboutSection';
 import SocialIcons from '../components/SocialIcons';
 import Navbar from './Navbar';
@@ -92,19 +7,8 @@ const AboutPage = () => {
   return (
     <main className="relative overflow-hidden bg-white dark:bg-black text-black dark:text-white font-sans flex flex-col items-center justify-center space-y-12 min-h-screen">
 
-      {/* ⬇️ Optional Navbar for About Page */}
       <Navbar />
-      {/* <svg
-        className="absolute top-[200px] right-[-80px] w-[400px] z-0 pointer-events-none"
-        viewBox="0 0 200 200"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill="#FFF500"
-          d="M54.4,-58.9C68.5,-46.6,75.8,-23.3,74.1,-2.6C72.5,18,61.9,36,47.8,49.5C33.7,63.1,16.8,72.1,-2.4,74.3C-21.5,76.5,-43.1,71.8,-57.3,58.1C-71.6,44.5,-78.5,22.3,-75.3,2.7C-72.1,-17,-58.8,-34.1,-43.7,-46.3C-28.6,-58.5,-11.8,-65.9,8.6,-71.3C28.9,-76.7,57.8,-80.1,54.4,-58.9Z"
-          transform="translate(100 100)"
-        />
-      </svg> */}
+ 
       <svg width="437" height="637" viewBox="0 0 437 637" fill="#737373" xmlns="http://www.w3.org/2000/svg" className="absolute top-[100px] left-[-80px] w-[400px] z-0 pointer-events-none">
         <g filter="url(#filter0_d_93_92)">
         <path d="M321.445 54.7897C228.464 4.66503 277.088 47.3896 88.6608 27.4078C-99.7668 7.42594 -179.877 187.315 -167.751 314.318C-155.626 441.321 -84.3804 456.538 -0.325101 508.135C74.2749 544.342 143.825 598.899 252.949 524.761C318.254 480.392 380.381 382.142 380.131 298.996C379.882 215.851 414.425 104.914 321.445 54.7897Z" fill="#737373"/>
@@ -147,17 +51,7 @@ const AboutPage = () => {
       </svg>
 
 
-      {/* <svg
-        className="absolute bottom-[100px] left-[280px] w-[350px] z-0 pointer-events-none"
-        viewBox="0 0 200 200"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill="#FFF500"
-          d="M37.2,-65.7C51.5,-56.4,68.4,-48.7,73.2,-36.4C78,-24.1,70.6,-7.3,65.7,10.3C60.7,27.9,58.2,46.2,47.3,55.9C36.5,65.6,17.2,66.6,-2.4,69.5C-22.1,72.3,-44.1,77,-56.3,66.3C-68.4,55.6,-70.6,29.4,-69.3,6.4C-68,-16.6,-63.3,-36.4,-51.1,-46.5C-38.9,-56.6,-19.5,-57,-2.1,-54.1C15.2,-51.3,30.4,-45,37.2,-65.7Z"
-          transform="translate(100 100)"
-        />
-      </svg> */}
+   
       <svg width="440" height="436" viewBox="0 0 440 436" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute bottom-[10px] right-[280px] w-[350px] z-0 pointer-events-none">
         <g filter="url(#filter0_d_104_16)">
         <path d="M199.953 34.6858C139.889 64.2288 178.882 53.9222 94.6276 139.207C10.3737 224.492 61.0566 319.428 124.206 353.097C187.355 386.767 222.73 356.907 279.915 332.157C326.265 307.205 379.029 290.422 388.465 214.334C394.113 168.799 373.752 108.025 335.473 82.249C297.194 56.4725 260.018 5.14279 199.953 34.6858Z" fill="#737373"/>
@@ -210,13 +104,7 @@ const AboutPage = () => {
         <SocialIcons />
       </div>
 
-      {/* ✅ Email (fixed) */}
-      <div className="fixed right-4 md:right-20 bottom-8 z-50 flex flex-col items-center gap-4">
-        <p className="text-gray-400 text-xs md:text-sm tracking-wider [writing-mode:vertical-rl] [text-orientation:mixed]">
-          sinhaaniskumar@outlook.in
-        </p>
-        <div className="w-3 md:w-4 h-px bg-gray-400" />
-      </div>
+     
     </main>
   );
 };
