@@ -30,6 +30,15 @@ const HeroSection = () => {
 
           <div className="mt-6 flex flex-col sm:flex-row items-center gap-4">
            
+            {/* <div className="mt-6 flex flex-col sm:flex-row items-center gap-4">
+              <button className="font-segoe font-[900] text-[20px] text-white px-6 py-2 bg-download-gradient rounded-custom-btn">
+                Download CV
+              </button>
+
+              <button className="font-segoe font-[900] text-[20px] text-black px-6 py-2 bg-contact-gradient rounded-custom-btn">
+                Get In Touch!
+              </button>
+            </div> */}
             <div className="mt-6 flex flex-col sm:flex-row items-center gap-4">
               <button className="font-segoe font-[900] text-[20px] px-6 py-2 bg-download-gradient rounded-custom-btn border border-white text-white">
                 Download CV
