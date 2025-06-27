@@ -85,15 +85,7 @@ const AboutPage = () => {
         </filter>
         </defs>
       </svg>
-
       
-
-
-      {/* ✅ YELLOW BLOB: top-right decorative background */}
-      <div className="clip-path-blob bg-yellow-400 w-72 h-72 absolute top-[-80px] right-[-80px] blur-2xl opacity-30 z-0" />
-
-      {/* ✅ Optional: Add more blobs here if you want */}
-
       {/* ✅ Content should be above blobs */}
       <div className="relative z-10 w-full flex justify-center">
         <AboutSection />

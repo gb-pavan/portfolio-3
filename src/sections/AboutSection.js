@@ -5,10 +5,10 @@ const AboutSection = () => {
 
 <section
   id="about"
-  className="absolute bottom-[-180px] right-[220px] w-[90%] max-w-7xl mx-auto px-8 md:px-16 py-20 rounded-xl"
+  className="absolute bottom-[-180px] right-[220px] mx-auto px-8 md:px-16 py-20 rounded-xl"
 >
   {/* Top heading with right-extending line */}
-  <div className="flex items-center mb-8 w-full">
+  <div className="flex items-center mb-8">
     <h2 className="text-black dark:text-white text-[64px] md:text-6xl font-[500] bg-white dark:bg-black py-3 px-4 rounded-xl tracking-tight whitespace-nowrap">
       This is it. ;)
     </h2>

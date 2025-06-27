@@ -1,6 +1,8 @@
 const AboutText = () => {
   return (
-    <div className="bg-white dark:bg-black text-black dark:text-white text-[20px] md:text-base leading-relaxed space-y-4 font-sans">
+    // <div className="bg-white dark:bg-black text-black dark:text-white text-[20px] md:text-base leading-relaxed space-y-4 font-sans max-w-4xl">
+    <div className="bg-transparent text-black dark:text-white text-[20px] md:text-base leading-relaxed space-y-4 font-sans max-w-4xl">
+
       <p>
         Anish Kr. Sinha is an Indian <strong className="text-white">UI/UX Designer &amp; Front End Developer</strong> with a passion for designing beautiful and functional user experiences. 
         Typically, he’s Driven &amp; permanently Curious. He’s obsessed with designing things and even more obsessed with designing cool &amp; clean stuff for the web and mobile. 
