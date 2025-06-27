@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import MainPage from './pages/MainPage';
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          <MainPage />
         </p>
      
       </header>
