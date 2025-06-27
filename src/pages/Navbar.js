@@ -42,7 +42,6 @@ const Navbar = () => {
           <a
             key={link.id}
             href={`#${link.id}`}
-            onClick={() => setActiveSection(link.id)}
             
           >
             {link.label}
